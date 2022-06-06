@@ -4,7 +4,10 @@ namespace PW5
 {
     internal class Program
     {
-        #region Split Words [Метод разделения строки на слова]
+        /// <summary>
+        /// Main - Split Words [Метод разделения строки на слова]
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)        {   
 
             Console.WriteLine("Введите предложение, которое необходимо разделить:");
@@ -34,9 +37,11 @@ namespace PW5
                 Console.WriteLine(word);
             }
         }
-        #endregion
+        
 
-        #region Mix Words [Перестановка слов в предложении]
+        /// <summary>
+        /// Mix Words [Перестановка слов в предложении]
+        /// </summary>
         static void MixWords()
         {
             Console.WriteLine("Введите предложение, в котором будет перемешан порядок слов:");
@@ -54,6 +59,6 @@ namespace PW5
             return result;
         }
         
-        #endregion
+        
     }
 }
